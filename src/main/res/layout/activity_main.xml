@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7B1FA2"
+    android:orientation="vertical"
+
+    tools:context="com.androidlime.androidtexttospeechexample.MainActivity">
+
+<TextView
+
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:layout_marginLeft="0dp"
+    android:textSize="30dp"
+    android:text="Android TextToSpeech"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:textSize="25dp"
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="49dp"
+        android:ems="11" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="39dp"
+        android:text="Speak" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:text="Enter Text:" />
+
+
+<TextView
+
+    android:layout_marginLeft="40dp"
+    android:gravity="center"
+    android:textSize="50dp"
+    android:text="I Love U Janu"
+    android:layout_marginTop="280dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<ImageView
+    android:src="@drawable/jjj"
+    android:layout_marginTop="350dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
